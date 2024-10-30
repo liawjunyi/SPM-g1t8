@@ -24,4 +24,5 @@ availableSecrets:
       env: "AWS_SECRET_ACCESS_KEY"
 
 
-logging: CLOUD_LOGGING_ONLY
+options:
+  logging: CLOUD_LOGGING_ONLY
