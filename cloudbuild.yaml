@@ -33,3 +33,6 @@ availableSecrets:
       env: "AWS_ACCESS_KEY_ID"
     - versionName: projects/river-tiger-440210-m6/secrets/AWS_SECRET_ACCESS_KEY/versions/latest
       env: "AWS_SECRET_ACCESS_KEY"
+
+options:
+  logging: CLOUD_LOGGING_ONLY
