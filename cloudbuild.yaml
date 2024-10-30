@@ -16,15 +16,15 @@ steps:
 # Optionally, specify any secrets or additional configurations
 availableSecrets:
   secretManager:
-    - versionName: projects/river-tiger-440210-m6/secrets/POSTGRES_USER/versions/latest
+    - versionName: projects/river-tiger-440210-m6/secrets/SPM/versions/latest
       env: "POSTGRES_USER"
-    - versionName: projects/river-tiger-440210-m6/secrets/POSTGRES_PASSWORD/versions/latest
+    - versionName: projects/river-tiger-440210-m6/secrets/SPM/versions/latest
       env: "POSTGRES_PASSWORD"
-    - versionName: projects/river-tiger-440210-m6/secrets/POSTGRES_DB/versions/latest
+    - versionName: projects/river-tiger-440210-m6/secrets/SPM/versions/latest
       env: "POSTGRES_DB"
-    - versionName: projects/river-tiger-440210-m6/secrets/AWS_ACCESS_KEY_ID/versions/latest
+    - versionName: projects/river-tiger-440210-m6/secrets/SPM/versions/latest
       env: "AWS_ACCESS_KEY_ID"
-    - versionName: projects/river-tiger-440210-m6/secrets/AWS_SECRET_ACCESS_KEY/versions/latest
+    - versionName: projects/river-tiger-440210-m6/secrets/SPM/versions/latest
       env: "AWS_SECRET_ACCESS_KEY"
 
 options:
