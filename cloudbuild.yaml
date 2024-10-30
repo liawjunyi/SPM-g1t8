@@ -18,14 +18,10 @@ availableSecrets:
   secretManager:
     - versionName: projects/river-tiger-440210-m6/secrets/SPM/versions/latest
       env: "POSTGRES_USER"
-    - versionName: projects/river-tiger-440210-m6/secrets/SPM/versions/latest
       env: "POSTGRES_PASSWORD"
-    - versionName: projects/river-tiger-440210-m6/secrets/SPM/versions/latest
       env: "POSTGRES_DB"
-    - versionName: projects/river-tiger-440210-m6/secrets/SPM/versions/latest
       env: "AWS_ACCESS_KEY_ID"
-    - versionName: projects/river-tiger-440210-m6/secrets/SPM/versions/latest
       env: "AWS_SECRET_ACCESS_KEY"
 
-options:
+
   logging: CLOUD_LOGGING_ONLY
