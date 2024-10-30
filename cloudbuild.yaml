@@ -19,7 +19,7 @@ substitutions:
   _POSTGRES_DB: POSTGRES_DB
   _AWS_ACCESS_KEY_ID: AWS_ACCESS_KEY_ID
   _AWS_SECRET_ACCESS_KEY: AWS_SECRET_ACCESS_KEY
-
+ 
 # Optionally, specify any secrets or additional configurations
 availableSecrets:
   secretManager:
