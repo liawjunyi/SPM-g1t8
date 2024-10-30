@@ -11,7 +11,7 @@ steps:
         export AWS_ACCESS_KEY_ID=${_AWS_ACCESS_KEY_ID}
         export AWS_SECRET_ACCESS_KEY=${_AWS_SECRET_ACCESS_KEY}
         docker-compose up --build -d
-
+ 
 # Specify any required substitutions or environment variables
 substitutions:
   _POSTGRES_USER: POSTGRES_USER
