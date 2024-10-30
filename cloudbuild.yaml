@@ -5,7 +5,7 @@ steps:
     args:
       - "-c"
       - |
-        apt-get update && apt-get install -y jq
+        apk add --no-cache jq
         secret=$(gcloud secrets versions access latest --secret=SPM)
         export POSTGRES_USER=$(echo "$secret" | jq -r '.POSTGRES_USER')
         export POSTGRES_PASSWORD=$(echo "$secret" | jq -r '.POSTGRES_PASSWORD')
